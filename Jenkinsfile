@@ -14,6 +14,7 @@ pipeline {
             steps {
                 sh '''#!/bin/bash
                 echo 'Test Step: We run testing tool like pytest here'
+                source /home/zhentong/miniconda3/etc/profile.d/conda.sh
 
                 # TODO fill out the path to conda here
                 # sudo /PATH/TO/CONDA init
